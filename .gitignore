@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Local configuration
+.env
+.flaskenv
+
+# Runtime uploads and generated media
+app/static/uploads/
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test and cache output
+.pytest_cache/
+.coverage
+htmlcov/
